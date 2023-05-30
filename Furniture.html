@@ -23,16 +23,33 @@
         img {
             border: 5px solid #555;
         }
-</style>
-
     </style>
-    <div class="topnav cont ">
-        <a href="#home">Home</a>
-        <a href="Registration.html">Services</a>
-        <a href="#Product">Product</a>
-        <a href="#Store">Store</a>
-        <a href="#Search">Search</a>
-    </div>
+
+
+
+    <style>
+        .topnav_cont{
+            background-color: #4F200D;
+            color: white;
+            border:none;
+            border-radius: 18px;
+            height: 36px;
+            width: 74px;
+            font-weight: bold;
+            font-size: 15px;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+    </style>
+        <div>
+            <button class="topnav_cont" onclick="document.location='#home'">Home</button>
+            <a href="Registration.html">
+                <button class="topnav_cont">Services</button>
+            </a>
+            <button class="topnav_cont" onclick="document.location='#Product'">Product</button>
+            <button class="topnav_cont" onclick="document.location='#Store'">Store</button>
+            <button class="topnav_cont" onclick="document.location='#Search'">Search</button>
+        </div>
         
         <p style="text-align:center;"><img src="deconsta.jpg" height="400" width="600" class="center"></p>
         <p style="text-align:center;font-size:40px;color:#4F200D"><Strong>DECONSTA</Strong></p>
